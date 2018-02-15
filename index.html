@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grade Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+<div class="table">
+<h1>Welcome to Grade Calculator!</h1>
+<h2>Grade Calculator</h2>
+
+
+<table id="table1" border="1">
+    <tr>
+        <th>Assessment Weight</th>
+        <th id="p1">Assessment Points</th>
+    </tr>
+    <tr>
+        <td><input type="text" id="AssessmentWeight"value="25"size="28"></td>
+        <td><input type="text" id="AssessmentPoints"value="55"size="28"></td>
+    </tr>
+
+    <tr>
+        <th>Classwork Weight</th>
+        <th id="p2">Classwork Points</th>
+    </tr>
+
+    <tr>
+        <td><input type="text" id="ClassworkWeight"value="25"size="28"></td>
+        <td><input type="text" id="ClassworkPoints"value="30"size="28"></td>
+    </tr>
+    <tr>
+        <th>Homework Weight</th>
+        <th id="p3">Homework Points</th>
+    </tr>
+    <tr>
+        <td><input type="text" id="HomeworkWeight"value="25"size="28"></td>
+        <td><input type="text" id="HomeworkPoints"value="50"size="28"></td>
+    </tr>
+    <tr>
+        <th>Participation Weight</th>
+        <th id="p4">Participation Points</th>
+    </tr>
+    <tr>
+        <td><input type="text" id="ParticipationWeight"value="25"size="28"></td>
+        <td><input type="text" id="ParticipationPoints"value="35"size="28"></td>
+    </tr>
+</table>
+
+<div class="button1"><button id="myButton1" onclick="calculateCurrentGrade()">Calculate Grade!</button></div>
+<div class="y" id="currentgrade"></div>
+    <div class= "y" id="CurrentGrade3"></div>
+
+
+<h2>Final Grade Calculator</h2>
+<table id="table2" border="1">
+    <tr>
+        <th>Current Grade</th>
+        <th>Grade Wanted</th>
+        <th>Finals Percent worth</th>
+    </tr>
+    <tr>
+        <td><input type="text" id="CurrentGrade2" value="92"size="28"></td>
+        <td><input type="text" id="GradeWanted"value="90"size="28"></td>
+        <td><input type="text" id="FinalsPercentWorth"value="15"size="28"></td>
+
+    </tr>
+</table>
+<div class="button2"><button id="myButton2" onclick="calculateGradeNeeded()">Finals Grade required</button></div>
+    <div class="y" id="x"></div>
+
+
+</div>
+</body>
+</html>

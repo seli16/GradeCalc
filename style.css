@@ -1,0 +1,50 @@
+h1{
+    text-align: center;
+    font-family: "Copperplate Gothic Light";
+    font-size: 50px;
+
+}
+h2{
+    text-align: center;
+    font-family:"Copperplate Gothic Light";
+    font-size: 40px;
+}
+.button1{
+    position:relative;
+    text-align: center;
+}
+#table1{
+    position:relative;
+    margin: auto;
+    text-align: center;
+}
+#table2{
+    position: relative;
+    margin:auto;
+    text-align: center;
+}
+.button2{
+    position:relative;
+    text-align: center
+}
+
+td{
+    background-color: white;
+}
+th{
+    background-color: gold;
+    font-family: "Copperplate Gothic Light";
+
+}
+
+body{
+    background-color: cornflowerblue;
+}
+.y{
+    font-style: italic;
+    font-family: "Copperplate Gothic Light";
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    position: relative;
+}
